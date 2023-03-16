@@ -5,10 +5,10 @@
 @copyright University of Illinois at Urbana-Champaign
 """
 
-import baseline.dataset_loaders.libri1to3mix as libri1to3mix
-import baseline.dataset_loaders.reverb_libri1to3mix as reverb_libri1to3mix
-import baseline.dataset_loaders.libri1to3chime as libri1to3chime
-import baseline.dataset_loaders.chime as chime
+import dataset_loaders.libri1to3mix as libri1to3mix
+import dataset_loaders.reverb_libri1to3mix as reverb_libri1to3mix
+import dataset_loaders.libri1to3chime as libri1to3chime
+import dataset_loaders.chime as chime
 
 
 def create_loader_for_simple_dataset(dataset_name=None,

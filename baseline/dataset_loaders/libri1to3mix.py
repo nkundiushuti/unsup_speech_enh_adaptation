@@ -11,7 +11,7 @@ import numpy as np
 import glob2
 
 
-import baseline.dataset_loaders.abstract_dataset as abstract_dataset
+import dataset_loaders.abstract_dataset as abstract_dataset
 from __config__ import LIBRI3MIX_ROOT_PATH
 import torchaudio
 
